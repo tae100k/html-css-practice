@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: wheat;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+u1, h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+button{
+    outline: none;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.review_wrap{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 430px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.review{
+    min-width: 450px;
+    height: 320px;
+    background: white;
+    margin-right: 45px;
+    padding: 80px 30px 40px 30px;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+}
+
+.review.profile{
+    position: absolute;
+    left: 50%;
+    top:-30px;
+}
+
+.review .profile img{
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    object-fit: cover;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
